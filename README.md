@@ -9,18 +9,18 @@
 ### Screenshots:
 
 Desktop:
-![Inicio de sesión](screenshots/desktop-0.png)
-![Lista de clientes a visitar](screenshots/desktop-1.png)
-![Lista de todos los clientes](screenshots/desktop-2.png)
-![Detalles del cliente](screenshots/desktop-3.png)
-![Edición del cliente](screenshots/desktop-4.png)
+<center><img src="screenshots/desktop-0.png" width="300" alt="Inicio de sesión"></center>
+<center><img src="screenshots/desktop-1.png" width="300" alt="Lista de clientes a visitar"></center>
+<center><img src="screenshots/desktop-2.png" width="300" alt="Lista de todos los clientes"></center>
+<center><img src="screenshots/desktop-3.png" width="300" alt="Detalles del cliente"></center>
+<center><img src="screenshots/desktop-4.png" width="300" alt="Edición del cliente"></center>
 
 Movil:
-![Inicio de sesión](screenshots/mobile-0.png)
-![Lista de clientes a visitar](screenshots/mobile-1.png)
-![Lista de todos los clientes](screenshots/mobile-2.png)
-![Detalles del cliente](screenshots/mobile-3.png)
-![Edición del cliente](screenshots/mobile-4.png)
+<center><img src="screenshots/mobile-0.PNG" width="150" alt="Inicio de sesión"></center>
+<center><img src="screenshots/mobile-1.PNG" width="150" alt="Lista de clientes a visitar"></center>
+<center><img src="screenshots/mobile-2.PNG" width="150" alt="Lista de todos los clientes"></center>
+<center><img src="screenshots/mobile-3.PNG" width="150" alt="Detalles del cliente"></center>
+<center><img src="screenshots/mobile-4.PNG" width="150" alt="Edición del cliente"></center>
 
 #### Ejecución:
 
