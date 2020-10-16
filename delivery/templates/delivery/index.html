@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% block content %}
+    <br>
+    <button data-toggle="collapse" data-target="#to_visit" class="btn btn-primary btn-lg btn-block">Clientes a visitar:</button>
+    <div id="to_visit" class="collapse show">
+        <br>
+        {% if clients_to_visit_list %}
+            {% for client in clients_to_visit_list %}
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col my-auto text-nowrap "><h4 class="card-title"><a href="clients/{{ client.id }}/">{{ client.name }} {{ client.last_name }}</a></h4></div>
+                            <div class="col-auto my-auto">(Visitado el {{client.last_visit}})</div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col mb-4 mb-md-0">
+                                    {{client.street_name}} {{client.street_number}}<br>{{client.phone}}
+                            </div>
+                            <div class="col-auto mx-auto my-auto">
+                                <div class="">
+                                    <a href="clients/{{ client.id }}/snooze" class="btn btn-sm btn-outline-secondary" role="button">Visitar mañana</a>
+                                    <a href="clients/{{ client.id }}/visited" class="btn btn-sm btn-outline-primary" role="button">Fue visitado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <div class="card mb-3">
+                <div class="card-body my-auto">
+                    <center><p class=lead>No hay clientes para visitar.</p></center>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+    <br>
+    <button data-toggle="collapse" data-target="#visited" class="btn btn-secondary btn-lg btn-block">Clientes visitados hoy:</button>
+    <div id="visited" class="collapse">
+        <br>
+        {% if clients_visited_today %}
+            {% for client in clients_visited_today %}
+                <div class="card mb-3">
+                    <div class="card-body my-auto">
+                        <h4 class="card-title"><a href="clients/{{ client.id }}/">{{ client.name }} {{ client.last_name }}</a></h4>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <div class="card mb-3">
+                <div class="card-body my-auto">
+                    <p class=lead>No hay clientes visitados.</p>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+    <br>
+    <button data-toggle="collapse" data-target="#tomorrow" class="btn btn-secondary btn-lg btn-block">Clientes a visitar mañana:</button>
+    <div id="tomorrow" class="collapse">
+        <br>
+        {% if clients_to_visit_tomorrow_list %}
+            {% for client in clients_to_visit_tomorrow_list %}
+                <div class="card mb-3">
+                    <div class="card-body my-auto">
+                        <h4 class="card-title"><a href="clients/{{ client.id }}/">{{ client.name }} {{ client.last_name }}</a></h4>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <div class="card mb-3">
+                <div class="card-body my-auto">
+                    <p class=lead>No hay clientes a visitar.</p>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+{% endblock%}

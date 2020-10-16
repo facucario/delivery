@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2 class="text-center mb-3 pt-4">{{ client.name }} <strong>{{ client.last_name }}</strong></h2>
+    <div class="card mb-3">
+        <div class="card-body">
+            <p class=lead>
+                <small><b>Calle:</b></small> {{ client.street_name }}<br>
+                <small><b>Número:</b></small> {{ client.street_number }}<br>
+                <small><b>Indicaciones:</b></small> {{ client.street_extra }}<br>
+            </p>
+                <hr>
+            <p class=lead>
+                <small><b>Teléfono:</b></small> {{ client.phone }}<br>
+                <small><b>Email:</b></small> {{ client.email }}<br>
+            </p>
+                <hr>
+            <p class=lead>
+                <small><b>Días entre visitas:</b></small> {{ client.days_between_visits }}<br>
+                <small><b>Última visita:</b></small> {{ client.last_visit }}<br>
+                <small><b>Visita especial:</b></small> {{ client.special_visit }} <br>
+                <small><b>Fecha de alta:</b></small> {{ client.registered }}<br>
+            </p>
+            <center><a href="/clients/{{ client.id }}/edit/" class="btn btn-sm btn-outline-primary" role="button">Editar</a>
+            <a href="/clients/{{ client.id }}/delete/" class="btn btn-sm btn-outline-danger" role="button">Eliminar</a></center>
+        </div>
+    </div>
+
+{% endblock%}

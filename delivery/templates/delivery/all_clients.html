@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h3 class="text-center mb-3 pt-4">Todos los clientes:</h3>
+    <a class="btn btn-primary btn-block mb-3" href="/clients/add/">Nuevo cliente</a>
+    {% if all_clients_list %}
+        {% for client in all_clients_list %}
+            <div class="card mb-3">
+                <div class="card-body">
+                  <div class="row">
+                        <div class="col text-nowrap"><h4 class="card-title"><a href="{{ client.id }}/">{{ client.name }} {{ client.last_name }}</a></h4></div>
+                        <div class="col-auto justify-content-end my-auto">(Visitado el {{ client.last_visit }})</div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <div class="card mb-3">
+            <div class="card-body my-auto">
+                <center><p class=lead>No hay clientes para mostrar.</p></center>
+            </div>
+        </div>
+    {% endif %}
+{% endblock%}
