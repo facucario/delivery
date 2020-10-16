@@ -9,18 +9,18 @@
 ### Screenshots:
 
 Desktop:
-![Inicio de sesión](screenshots/desktop_0.png)
-![Lista de clientes a visitar](screenshots/desktop_1.png)
-![Lista de todos los clientes](screenshots/desktop_2.png)
-![Detalles del cliente](screenshots/desktop_3.png)
-![Edición del cliente](screenshots/desktop_4.png)
+![Inicio de sesión](screenshots/desktop-0.png)
+![Lista de clientes a visitar](screenshots/desktop-1.png)
+![Lista de todos los clientes](screenshots/desktop-2.png)
+![Detalles del cliente](screenshots/desktop-3.png)
+![Edición del cliente](screenshots/desktop-4.png)
 
 Movil:
-![Inicio de sesión](screenshots/mobile_0.png)
-![Lista de clientes a visitar](screenshots/mobile_1.png)
-![Lista de todos los clientes](screenshots/mobile_2.png)
-![Detalles del cliente](screenshots/mobile_3.png)
-![Edición del cliente](screenshots/mobile_4.png)
+![Inicio de sesión](screenshots/mobile-0.png)
+![Lista de clientes a visitar](screenshots/mobile-1.png)
+![Lista de todos los clientes](screenshots/mobile-2.png)
+![Detalles del cliente](screenshots/mobile-3.png)
+![Edición del cliente](screenshots/mobile-4.png)
 
 #### Ejecución:
 
