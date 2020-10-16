@@ -9,18 +9,10 @@
 ### Screenshots:
 
 Desktop:
-<center><img src="screenshots/desktop-0.png" width="300" alt="Inicio de sesión"></center>
-<center><img src="screenshots/desktop-1.png" width="300" alt="Lista de clientes a visitar"></center>
-<center><img src="screenshots/desktop-2.png" width="300" alt="Lista de todos los clientes"></center>
-<center><img src="screenshots/desktop-3.png" width="300" alt="Detalles del cliente"></center>
-<center><img src="screenshots/desktop-4.png" width="300" alt="Edición del cliente"></center>
+<img src="screenshots/desktop-0.png" width="600" alt="Inicio de sesión"> <img src="screenshots/desktop-1.png" width="600" alt="Lista de clientes a visitar"> <img src="screenshots/desktop-2.png" width="600" alt="Lista de todos los clientes"> <img src="screenshots/desktop-3.png" width="600" alt="Detalles del cliente"> <img src="screenshots/desktop-4.png" width="600" alt="Edición del cliente">
 
 Movil:
-<center><img src="screenshots/mobile-0.PNG" width="150" alt="Inicio de sesión"></center>
-<center><img src="screenshots/mobile-1.PNG" width="150" alt="Lista de clientes a visitar"></center>
-<center><img src="screenshots/mobile-2.PNG" width="150" alt="Lista de todos los clientes"></center>
-<center><img src="screenshots/mobile-3.PNG" width="150" alt="Detalles del cliente"></center>
-<center><img src="screenshots/mobile-4.PNG" width="150" alt="Edición del cliente"></center>
+<img src="screenshots/mobile-0.PNG" width="300" alt="Inicio de sesión"> <img src="screenshots/mobile-1.PNG" width="300" alt="Lista de clientes a visitar"> <img src="screenshots/mobile-2.PNG" width="300" alt="Lista de todos los clientes"> <img src="screenshots/mobile-3.PNG" width="300" alt="Detalles del cliente"> <img src="screenshots/mobile-4.PNG" width="300" alt="Edición del cliente">
 
 #### Ejecución:
 
