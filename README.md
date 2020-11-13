@@ -30,7 +30,7 @@ Movil:
 
    2. Ubicarse dentro del directorio donde se encuentra manage.py, y ejecutar desde la terminal:
 
-      `$ pip install django-crispy-forms`
+      `$ pip install requirements.txt`
 
       `$ python manage.py makemigrations`
 
