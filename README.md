@@ -28,7 +28,9 @@ Movil:
 
    1. Verificar que Python 3 y Django estén instalados.
 
-   2. Ubicarse dentro del directorio donde se encuentra manage.py, y ejecutar desde la terminal:
+   2. Crear un archivo .env usando como ejemplo .env.example.
+
+   3. Ubicarse dentro del directorio donde se encuentra manage.py, y ejecutar desde la terminal:
 
       `$ pip install requirements.txt`
 
