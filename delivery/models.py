@@ -1,5 +1,4 @@
 from django.db import models
-from phone_field import PhoneField
 import datetime
 
 # Model for Clients.
@@ -9,7 +8,7 @@ class Clients(models.Model):
     street_name = models.CharField(max_length=200, verbose_name='Calle')
     street_number = models.CharField(max_length=200, verbose_name='Número')
     street_extra = models.CharField(max_length=200, blank=True, verbose_name='Indicaciones')
-    phone = PhoneField(verbose_name='Teléfono')
+    phone = models.CharField(max_length=30, verbose_name='Teléfono')
     email = models.EmailField(blank=True, verbose_name='Email')
     days_between_visits = models.PositiveIntegerField(default=7, verbose_name='Días entre visitas')
     registered = models.DateField(default=datetime.date.today, verbose_name='Fecha de alta')
