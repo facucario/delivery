@@ -1,8 +1,11 @@
 from django.urls import path
+from django.conf.urls import url, include
+
 from . import views
 
 app_name = 'delivery'
 urlpatterns = [
+    url('', include('pwa.urls')),
     path('', views.index, name='index'),
     path('clients/', views.clients, name='all_clients'),
     path('clients/add/', views.ClientsCreateView.as_view(), name='add_clients'),

@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ['*','localhost']
 
 INSTALLED_APPS = [
     'crispy_forms',
+    'pwa',
     'delivery.apps.DeliveryConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -54,6 +55,31 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+PWA_APP_NAME = 'Delivery'
+PWA_APP_DESCRIPTION = "¡Encuentra tus clientes!"
+PWA_APP_THEME_COLOR = '#343a40'
+PWA_APP_BACKGROUND_COLOR = '#f7f7f7'
+PWA_APP_DISPLAY = 'standalone'
+PWA_APP_SCOPE = '/'
+PWA_APP_ORIENTATION = 'portrait'
+PWA_APP_START_URL = '/'
+PWA_APP_STATUS_BAR_COLOR = 'default'
+PWA_APP_ICONS = [
+    {
+        'src': 'static/delivery/images/icons/icon.png',
+        'sizes': '192x192'
+    }
+]
+PWA_APP_ICONS_APPLE = [
+    {
+        'src': 'static/delivery/images/icons/apple_touch_icon.png',
+        'sizes': '120x120'
+    }
+]
+
+PWA_APP_DIR = 'ltr'
+PWA_APP_LANG = 'es-AR'
 
 ROOT_URLCONF = 'deliveries.urls'
 
